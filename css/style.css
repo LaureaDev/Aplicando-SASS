@@ -597,7 +597,7 @@ input:focus~.barra::before {
   margin: auto;
 }
 
-button {
+.button {
   font-family: 'Roboto';
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #85D8CE, #085078);
@@ -608,6 +608,10 @@ button {
   font-size: 20px;
   cursor: pointer;
   font-weight: 550;
+}
+
+.button a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
